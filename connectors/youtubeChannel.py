@@ -1,14 +1,23 @@
 import json
 import time
+import logging
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+logger = logging.getLogger()
 
 class Channel:
     def __init__(self, url) -> None:
+        """
+        https://binance-docs.github.io/apidocs/futures/en
+        :param public_key:
+        :param secret_key:
+        :param testnet:
+        :param futures: if False, the Client will be a Spot API Client
+        """
         self._channel_name = ""
         self._channel_url = url
         self._filename = ""

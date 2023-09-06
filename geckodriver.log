@@ -248,3 +248,26 @@ c@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_ic
 e@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1628:371
 
 JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1693984489804	Marionette	INFO	Stopped listening on port 58449
+1693984493660	Marionette	INFO	Stopped listening on port 59322
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1694040475140	geckodriver	INFO	Listening on 127.0.0.1:54498
+1694040476568	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "54499" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_4/4gx4tcsj73g0xkg3w22y0jzm0000gn/T/rust_mozprofile7PBXHP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694040478697	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694040479276	Marionette	INFO	Listening on port 54506
+Read port: 54506
+WebDriver BiDi listening on ws://127.0.0.1:54499
+1694040479785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54499/devtools/browser/0f51e397-3197-4a51-96e7-1be557f1cd10
+1694040486022	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 74171, MediaDecoderStateMachine #1] WARNING: Decoder=12120b800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 74171, MediaDecoderStateMachine #1] WARNING: Decoder=12120b800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+1694040550749	Marionette	INFO	Stopped listening on port 54506
+JavaScript warning: https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 1671: Script terminated by timeout at:
+Zra/this.done</<@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1671:177
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
