@@ -218,3 +218,33 @@ e@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_ic
 
 JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
 JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1693983848366	geckodriver	INFO	Listening on 127.0.0.1:59316
+1693983849339	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59317" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_4/4gx4tcsj73g0xkg3w22y0jzm0000gn/T/rust_mozprofilehCEbTd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693983849711	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693983850062	Marionette	INFO	Listening on port 59322
+Read port: 59322
+WebDriver BiDi listening on ws://127.0.0.1:59317
+1693983850272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59317/devtools/browser/a1f80884-d14f-4336-9324-8bde23de1dd9
+1693983853210	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1693983886311	geckodriver	INFO	Listening on 127.0.0.1:59479
+1693983887026	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59480" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/_4/4gx4tcsj73g0xkg3w22y0jzm0000gn/T/rust_mozprofileLhfbev"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693983887588	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693983887769	Marionette	INFO	Listening on port 59485
+Read port: 59485
+WebDriver BiDi listening on ws://127.0.0.1:59480
+1693983888143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59480/devtools/browser/70e70d06-6d0c-4c7b-9393-0fc9057343bb
+1693983891291	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1693983930399	Marionette	INFO	Stopped listening on port 59485
+JavaScript warning: https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 1619: Script terminated by timeout at:
+c@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1619:122
+e@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1628:371
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
