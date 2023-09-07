@@ -1,4 +1,5 @@
 import logging
+import gvars
 from connectors.youtubeChannel import Channel
 
 # Create and configure the logger object
@@ -10,7 +11,7 @@ formatter = logging.Formatter('%(asctime)s %(levelname)s :: %(message)s')
 stream_handler.setFormatter(formatter)
 stream_handler.setLevel(logging.INFO)   # Minimum logging level for the StreamHandler
 
-file_handler = logging.FileHandler('info.log')  # Configure the logging messages written to a file
+file_handler = logging.FileHandler(gvars.LOGS_PATH + 'info.log')  # Configure the logging messages written to a file
 file_handler.setFormatter(formatter)
 file_handler.setLevel(logging.DEBUG)    # Minimum logging level for th FileHandler
 
@@ -25,3 +26,4 @@ if __name__ == '__main__':  # Execute the following code only when executing mai
     channel = Channel(url)
     channel.save_json()
     channel.stop_driver()
+    print(gvars)

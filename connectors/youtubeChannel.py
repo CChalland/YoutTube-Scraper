@@ -1,6 +1,7 @@
 import json
 import time
 import logging
+import gvars
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -10,13 +11,9 @@ from selenium.webdriver.support import expected_conditions as EC
 logger = logging.getLogger()
 
 class Channel:
-    def __init__(self, url) -> None:
+    def __init__(self, url):
         """
-        https://binance-docs.github.io/apidocs/futures/en
-        :param public_key:
-        :param secret_key:
-        :param testnet:
-        :param futures: if False, the Client will be a Spot API Client
+        :param url:
         """
         self._channel_name = ""
         self._channel_url = url
@@ -27,8 +24,8 @@ class Channel:
         self._item_count = 180
         self.SCROLL_PAUSE_TIME = 1
         
-        # self.driver = webdriver.Firefox()
-        self.driver = webdriver.Firefox('/Users/ColeChalland/Documents/Selenium/FireFox')
+        self.driver = webdriver.Firefox()
+        # self.driver = webdriver.Firefox(gvars.SELENIUM_FIREFOX)
         self.driver.get(url)
         self._start_up()
 
@@ -62,11 +59,11 @@ class Channel:
 
 
     def save_json(self) -> None:
-        self._filename = self._channel_name + ".json"
+        self._filename = gvars.DATA_PATH + self._channel_name + ".json"
         # Serializing json
         json_object = json.dumps(self._data, indent=4)
         # Writing to sample.json
-        with open(self._filename, "w") as outfile:
+        with open(self._filename, "w+") as outfile:
             outfile.write(json_object)
 
 
