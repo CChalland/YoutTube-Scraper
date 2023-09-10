@@ -1,0 +1,4 @@
+1. strip the videoID from the channel web crawler and add to dictionary
+2. Use YouTubeTranscriptApi to capture timestamps of captions in video in method
+3. cut audio file of video into chunks of words according to captions timestamps
+4. 

@@ -3214,3 +3214,174 @@ JavaScript warning: https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/
 g.k.NS@https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/en_US/base.js:8126:16
 
 JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1694318118940	geckodriver	INFO	Listening on 127.0.0.1:63154
+1694318119375	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "63155" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofilev9ABC3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694318119662	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694318120610	Marionette	INFO	Listening on port 63163
+Read port: 63163
+WebDriver BiDi listening on ws://127.0.0.1:63155
+1694318120672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63155/devtools/browser/5b08a50a-07d4-405d-a371-8710afb7a66a
+1694318159291	Marionette	INFO	Stopped listening on port 63163
+1694319482909	geckodriver	INFO	Listening on 127.0.0.1:63639
+1694319483353	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "63640" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofileTQDfRL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694319483718	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694319483963	Marionette	INFO	Listening on port 63645
+WebDriver BiDi listening on ws://127.0.0.1:63640
+Read port: 63645
+1694319484127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63640/devtools/browser/8264a10a-6c59-4ab0-bd2c-a5ba534385f1
+1694319485650	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 16470, MediaDecoderStateMachine #1] WARNING: Decoder=11fc4ab00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 16470, MediaDecoderStateMachine #1] WARNING: Decoder=11fc4ab00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript warning: https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 1619: Script terminated by timeout at:
+c@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1619:122
+e@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1628:371
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1694320101419	Marionette	INFO	Stopped listening on port 63645
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1694320796814	geckodriver	INFO	Listening on 127.0.0.1:64913
+1694320797265	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "64914" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofile4kV9kR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694320797678	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694320798153	Marionette	INFO	Listening on port 64919
+WebDriver BiDi listening on ws://127.0.0.1:64914
+Read port: 64919
+1694320798334	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:64914/devtools/browser/8ae63ef6-c9c7-4ff2-862a-c80e8466494a
+1694320801231	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 1619: Script terminated by timeout at:
+c@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1619:122
+e@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1628:371
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1694320829526	Marionette	INFO	Stopped listening on port 64919
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/quicksuggest sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/public-suffix-list sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/pioneer-study-addons-v1 sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/whats-new-panel getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1694320838206	geckodriver	INFO	Listening on 127.0.0.1:64986
+1694320838736	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "64987" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofilexnWq2n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694320839608	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694320840051	Marionette	INFO	Listening on port 64995
+WebDriver BiDi listening on ws://127.0.0.1:64987
+Read port: 64995
+1694320840302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:64987/devtools/browser/f0d8f551-8e1b-496d-ab48-a05e8bade18c
+1694320842521	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694320865591	Marionette	INFO	Stopped listening on port 64995
+JavaScript warning: https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 1359: Script terminated by timeout at:
+al/<@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1359:47
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1694320927935	geckodriver	INFO	Listening on 127.0.0.1:65065
+1694320928228	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "65066" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofilefHIZpd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694320928579	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694320928876	Marionette	INFO	Listening on port 65071
+WebDriver BiDi listening on ws://127.0.0.1:65066
+Read port: 65071
+1694320929194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:65066/devtools/browser/09029655-9462-43b1-b664-f5436f0975d8
+1694320931002	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 1359: Script terminated by timeout at:
+al/<@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1359:47
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1694320936143	Marionette	INFO	Stopped listening on port 65071
+1694320964127	geckodriver	INFO	Listening on 127.0.0.1:65140
+1694320964819	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "65141" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofilePsmzWJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694320965249	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694320965509	Marionette	INFO	Listening on port 65148
+WebDriver BiDi listening on ws://127.0.0.1:65141
+Read port: 65148
+1694320965791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:65141/devtools/browser/57eae181-1cf9-486f-9c8b-ca8a10337a4b
+1694320967662	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694320989531	Marionette	INFO	Stopped listening on port 65148
+JavaScript warning: https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 1671: Script terminated by timeout at:
+Zra/this.done</<@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1671:174
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1694321031818	geckodriver	INFO	Listening on 127.0.0.1:65208
+1694321032253	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "65209" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofilemX9KYY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694321032591	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694321032759	Marionette	INFO	Listening on port 65214
+WebDriver BiDi listening on ws://127.0.0.1:65209
+Read port: 65214
+1694321032967	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:65209/devtools/browser/c21a15ae-1b3e-4fad-b13b-51f1b22f3aa6
+1694321034411	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694321056317	Marionette	INFO	Stopped listening on port 65214
+JavaScript warning: https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 1671: Script terminated by timeout at:
+Zra/this.done</<@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1671:174
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1694321173233	geckodriver	INFO	Listening on 127.0.0.1:65288
+1694321173682	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "65289" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofileR4qwcc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694321174077	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694321174217	Marionette	INFO	Listening on port 65294
+WebDriver BiDi listening on ws://127.0.0.1:65289
+Read port: 65294
+1694321174398	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:65289/devtools/browser/6c6c69af-0ccc-4cba-b7d5-3dbc405bc5e4
+1694321176231	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694321200779	Marionette	INFO	Stopped listening on port 65294
+JavaScript warning: https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 1671: Script terminated by timeout at:
+Zra/this.done</<@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1671:174
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
