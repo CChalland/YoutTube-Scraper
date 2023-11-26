@@ -3385,3 +3385,236 @@ JavaScript warning: https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_pol
 Zra/this.done</<@https://www.youtube.com/s/desktop/fc8159e8/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:1671:174
 
 JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1700931040903	geckodriver	INFO	Listening on 127.0.0.1:51778
+1700931041363	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "51779" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofileWYPOhe"
+2023-11-25 11:50:42.111 firefox[3886:52141] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2023-11-25 11:50:44.734 firefox[3889:52180] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+WebDriver BiDi listening on ws://127.0.0.1:51779
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51779/devtools/browser/6b8bf6a2-d1bf-49e4-a79f-7fc819a18d22
+1700931067625	geckodriver	INFO	Listening on 127.0.0.1:51827
+1700931067869	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "51828" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofile9M58Io"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-11-25 11:51:08.200 firefox[3977:53220] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1700931068362	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700931068502	Marionette	INFO	Listening on port 51836
+WebDriver BiDi listening on ws://127.0.0.1:51828
+Read port: 51836
+1700931068705	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51828/devtools/browser/56d1fa5c-e7d9-4bbf-ba08-5bebba48098e
+1700931070589	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 3980, MediaDecoderStateMachine #1] WARNING: Decoder=125f80100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 3980, MediaDecoderStateMachine #1] WARNING: Decoder=125f80100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+1700931098384	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700931106240	Marionette	INFO	Stopped listening on port 51836
+JavaScript warning: https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 1718: Script terminated by timeout at:
+Ssa/this.done</<@https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js:1718:177
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1700932080442	geckodriver	INFO	Listening on 127.0.0.1:52019
+1700932080893	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "52020" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofileJnJn1R"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-11-25 12:08:01.117 firefox[4623:64616] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1700932081266	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700932081366	Marionette	INFO	Listening on port 52027
+WebDriver BiDi listening on ws://127.0.0.1:52020
+Read port: 52027
+1700932081484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52020/devtools/browser/eebb56bf-2c10-4a72-ae65-29cca54bbc86
+1700932083124	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 4626, MediaDecoderStateMachine #1] WARNING: Decoder=10e0ed000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 4626, MediaDecoderStateMachine #1] WARNING: Decoder=10e0ed000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+1700932111272	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700932125506	Marionette	INFO	Stopped listening on port 52027
+JavaScript warning: https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 1718: Script terminated by timeout at:
+Ssa/this.done</<@https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js:1718:177
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1700933459683	geckodriver	INFO	Listening on 127.0.0.1:53883
+1700933460150	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "53884" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofilemX8EPb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-11-25 12:31:00.331 firefox[5446:80793] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1700933460553	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700933460659	Marionette	INFO	Listening on port 53889
+WebDriver BiDi listening on ws://127.0.0.1:53884
+Read port: 53889
+1700933460757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:53884/devtools/browser/9289f2f2-c4a1-44fa-8949-4e642298deda
+1700933462425	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1700933490637	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700933495159	Marionette	INFO	Stopped listening on port 53889
+JavaScript warning: https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 1401: Script terminated by timeout at:
+Zk/<@https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js:1401:47
+
+JavaScript error: https://www.google.com/js/th/Cz7e-VR341EnRw5g1wAl9brpVe2wOP5KsPJPm-1eumg.js line 2 > eval, line 2056: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1700933622947	geckodriver	INFO	Listening on 127.0.0.1:54355
+1700933623404	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "54356" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofileUuwjk6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-11-25 12:33:43.621 firefox[5631:83671] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1700933623788	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700933623884	Marionette	INFO	Listening on port 54361
+WebDriver BiDi listening on ws://127.0.0.1:54356
+Read port: 54361
+1700933623995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:54356/devtools/browser/c7c50b5a-a7d4-4890-943e-3ae3ba3ab34f
+1700933625473	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 5634, MediaDecoderStateMachine #1] WARNING: Decoder=10defa500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 5634, MediaDecoderStateMachine #1] WARNING: Decoder=10defa500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 5634, MediaDecoderStateMachine #1] WARNING: Decoder=10d97b400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 5634, MediaDecoderStateMachine #1] WARNING: Decoder=10d97b400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+1700933653801	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700933666785	Marionette	INFO	Stopped listening on port 54361
+JavaScript warning: https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 1401: Script terminated by timeout at:
+Zk/<@https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js:1401:47
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1700933803221	geckodriver	INFO	Listening on 127.0.0.1:54664
+1700933803693	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "54665" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofilehVAKfe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-11-25 12:36:43.892 firefox[5802:86190] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1700933803957	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700933804146	Marionette	INFO	Listening on port 54670
+WebDriver BiDi listening on ws://127.0.0.1:54665
+Read port: 54670
+1700933804340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:54665/devtools/browser/8f777d94-f1de-4d06-8ee1-659fa4f37f63
+1700933805878	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 5805, MediaDecoderStateMachine #1] WARNING: Decoder=12420b100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 5805, MediaDecoderStateMachine #1] WARNING: Decoder=12420b100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 5805, MediaDecoderStateMachine #1] WARNING: Decoder=11e5cab00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 5805, MediaDecoderStateMachine #1] WARNING: Decoder=11e5cab00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 5805, MediaDecoderStateMachine #1] WARNING: Decoder=125979f00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 5805, MediaDecoderStateMachine #1] WARNING: Decoder=125979f00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 5805, MediaDecoderStateMachine #1] WARNING: Decoder=1109e0d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 5805, MediaDecoderStateMachine #1] WARNING: Decoder=1109e0d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+1700933833979	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700933849167	Marionette	INFO	Stopped listening on port 54670
+JavaScript warning: https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 1401: Script terminated by timeout at:
+Zk/<@https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js:1401:47
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1700933895805	geckodriver	INFO	Listening on 127.0.0.1:54803
+1700933896267	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "54804" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofile5dOJI1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-11-25 12:38:16.487 firefox[5961:88035] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1700933896647	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700933896741	Marionette	INFO	Listening on port 54809
+WebDriver BiDi listening on ws://127.0.0.1:54804
+Read port: 54809
+1700933896853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:54804/devtools/browser/0112f2dd-f81e-44ef-83ac-b320d21066b7
+1700933898384	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1700933927071	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700933947209	geckodriver	INFO	Listening on 127.0.0.1:54894
+1700933947685	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "54895" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofileAF6dR7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-11-25 12:39:07.886 firefox[6075:89245] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1700933947946	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700933948141	Marionette	INFO	Listening on port 54900
+WebDriver BiDi listening on ws://127.0.0.1:54895
+Read port: 54900
+1700933948338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:54895/devtools/browser/ce7506b5-0f9d-4903-af12-657433eaf060
+1700933950274	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3782: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3782: TypeError: this._windows[aWindow.__SSi] is undefined
+1700933958889	geckodriver	INFO	Listening on 127.0.0.1:54955
+1700933959378	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "54956" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofileUf6IMt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-11-25 12:39:19.821 firefox[6158:89886] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1700933959934	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700933960190	Marionette	INFO	Listening on port 54980
+WebDriver BiDi listening on ws://127.0.0.1:54956
+Read port: 54980
+1700933960302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:54956/devtools/browser/3ff3e61e-9d58-45cb-8e78-f35e54433d26
+1700933963030	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1700933978661	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700933990080	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700933994611	Marionette	INFO	Stopped listening on port 54980
+JavaScript warning: https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 1401: Script terminated by timeout at:
+Zk/<@https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js:1401:47
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1700934040670	geckodriver	INFO	Listening on 127.0.0.1:55102
+1700934041093	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "55103" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofileDLc7ko"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-11-25 12:40:41.488 firefox[6299:91906] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1700934041583	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700934042019	Marionette	INFO	Listening on port 55108
+WebDriver BiDi listening on ws://127.0.0.1:55103
+Read port: 55108
+1700934042222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:55103/devtools/browser/dcb15cab-76c8-4389-948a-14923238b460
+1700934044163	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Child 6304, MediaDecoderStateMachine #1] WARNING: Decoder=126410a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 6304, MediaDecoderStateMachine #1] WARNING: Decoder=126410a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+1700934071593	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700934087928	Marionette	INFO	Stopped listening on port 55108
+JavaScript warning: https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 1718: Script terminated by timeout at:
+Ssa/this.done</<@https://www.youtube.com/s/desktop/bd3558ba/jsbin/desktop_polymer.vflset/desktop_polymer.js:1718:177
+
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/@bbcvods5052/videos?themeRefresh=1, line 12: TypeError: can't access dead object
+1700937365607	geckodriver	INFO	Listening on 127.0.0.1:57829
+1700937366088	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox" "--marionette" "--remote-debugging-port" "57830" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/l1/0264_8x16fngdg57byjslw640000gn/T/rust_mozprofileuq80jS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-11-25 13:36:06.328 firefox[8482:127766] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1700937366391	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700937366918	Marionette	INFO	Listening on port 57836
+WebDriver BiDi listening on ws://127.0.0.1:57830
+Read port: 57836
+1700937367076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:57830/devtools/browser/c1fab0ce-4a15-4a52-8ade-101275eee03d
+1700937368812	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3782: TypeError: this._windows[aWindow.__SSi] is undefined
+[Child 8485, MediaDecoderStateMachine #1] WARNING: Decoder=121812800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 8485, MediaDecoderStateMachine #1] WARNING: Decoder=121812800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+1700937397594	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700949065708	Marionette	INFO	Stopped listening on port 57836
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+1700949067724	Marionette	INFO	Stopped listening on port 54900
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+1700949069737	Marionette	INFO	Stopped listening on port 54809
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))

@@ -1,0 +1,10 @@
+*.pyc
+*.DS_Store
+*__pycache__*
+*node_modules*
+
+# /bot-env
+
+.env
+info.log
+database.db

@@ -1,6 +1,7 @@
 import logging
 import gvars
 from connectors.youtubeChannel import Channel
+from connectors.youtubeVideo import YouTubeVideo
 
 # Create and configure the logger object
 logger = logging.getLogger()
@@ -23,7 +24,7 @@ logger.addHandler(file_handler)
 
 if __name__ == '__main__':  # Execute the following code only when executing main.py (not when importing it)
     url = 'https://www.youtube.com/@bbcvods5052/videos'
-    channel = Channel(url)
-    channel.save_json()
-    channel.stop_driver()
-    print(gvars)
+    channel = Channel(url, "BBCVODS", data_path=gvars.DATA_PATH)
+
+    channel_videos = YouTubeVideo("BBCVODS", channel.get_channel_json())
+    channel_videos.videos()
