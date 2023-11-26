@@ -8,3 +8,5 @@
 .env
 info.log
 database.db
+client_secrets.json
+token.json

@@ -1,6 +1,6 @@
 import os
 import json
-import gvars
+import gvars as gvars
 import time
 import logging
 from pytube import YouTube
@@ -30,6 +30,7 @@ class YoutubeDownloader:
         self.driver = webdriver.Firefox()
         # self.driver = webdriver.Firefox(gvars.SELENIUM_FIREFOX)
         self.driver.get(url)
+        self._start_up()
 
 
 
@@ -77,15 +78,22 @@ class YoutubeDownloader:
 
     def filter_on_captions(self):
         index = 0
-        caption_loaded_data = []
-        for channel in self._data:
-            # print(channel['raw_data'])
-            for video in channel['raw_data']:
-                print("Video", index, ":", video['title'])
-                index += 1
-                yt = YouTube(video['video_url'])
-                if len(yt.captions) > 0:
-                    caption_loaded_data.append(video)
+        filter_on_captions = []
+        
+        for item in self._data:
+            # print("Video", index, ":", item['title'])
+            # index += 1
+            yt = YouTube(item['video_url'], use_oauth=True, allow_oauth_cache=True)
+            # https://github.com/pytube/pytube/issues/1674
+            # Have to access pytube.streams before acessing captions, for captions to load
+            # print(len(yt.streams))  # NEED THIS
+            yt.bypass_age_gate()
+            print(yt.captions)
+            
+            if len(yt.captions) > 0:
+                filter_on_captions.append(item)
+        
+        print(filter_on_captions)
 
 
     def save_json(self) -> None:
@@ -113,8 +121,11 @@ if __name__ == '__main__':  # Execute the following code only when executing mai
     sample_channel_url = 'https://www.youtube.com/@bbcvods5052/videos'
     sample_video_url = "https://www.youtube.com/watch?v=psFCaWqVthI"
     
+    # print(pytube.__file__)
     
     yt = YoutubeDownloader(sample_channel_url)
     
     yt.filter_on_captions()
-    yt.read_data()
+    yt.stop_driver()
+    
+    

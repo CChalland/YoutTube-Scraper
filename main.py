@@ -1,5 +1,5 @@
 import logging
-import gvars
+import gvars as gvars
 from connectors.youtubeChannel import Channel
 from connectors.youtubeVideo import YouTubeVideo
 
